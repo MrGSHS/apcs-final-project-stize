@@ -1,1 +1,17 @@
 /Stize/nbproject/private/
+# NetBeans specific #
+
+/Stize/build/
+/Stize/nbbuild/
+/Stize/dist/
+/Stize/nbdist/
+/Stize/nbactions.xml
+/Stize/nb-configuration.xml
+
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
