@@ -1,17 +1,19 @@
-/Stize/nbproject/private/
-# NetBeans specific #
-
-/Stize/build/
-/Stize/nbbuild/
-/Stize/dist/
-/Stize/nbdist/
-/Stize/nbactions.xml
-/Stize/nb-configuration.xml
-
-# Class Files #
 *.class
+.DS_STORE
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
+
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
