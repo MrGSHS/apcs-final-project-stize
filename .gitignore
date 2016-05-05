@@ -1,14 +1,14 @@
-*.class
-.DS_STORE
+# NetBeans specific #
 nbproject/private/
 build/
 nbbuild/
 dist/
 nbdist/
 nbactions.xml
-.nb-gradle/
+nb-configuration.xml
 
-
+# Class Files #
+*.class
 
 # Package Files #
 *.jar
