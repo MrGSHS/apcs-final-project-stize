@@ -5,10 +5,21 @@
  */
 package stize;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author evillev6
  */
 public class Customer {
+    private int size;
+    private String color;
+    private String type;
+    private int low;
+    private int high;
+    public ArrayList<Clothes>[] findClothes (int size, String color,
+           String type, int low, int high){
+        
+    }
     
 }
