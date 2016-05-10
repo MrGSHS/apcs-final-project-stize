@@ -17,8 +17,25 @@ public class Customer {
     private String type;
     private int low;
     private int high;
+    public Customer(String t, int s, String c, int l, int h){
+        type = t;
+        size = s;
+        color = c;
+        low = l;
+        high = h;
+    }
     public ArrayList<Clothes>[] findClothes (int size, String color,
-           String type, int low, int high){
+            int low, int high){
+        if(type.equals("dress")){
+            
+        }
+        if(type.equals("pants")){
+            
+        }
+        if(type.equals("shirt")){
+            
+        }
+        if(type.equals("skirt"))
         
     }
     
