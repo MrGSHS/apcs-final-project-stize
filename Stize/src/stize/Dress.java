@@ -11,4 +11,8 @@ package stize;
  */
 public class Dress extends Clothes{
     
+    public Dress(int size, int price, String type, String brand, String color) {
+        super(size, price, type, brand, color);
+    }
+    
 }

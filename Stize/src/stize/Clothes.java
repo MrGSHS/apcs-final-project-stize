@@ -16,6 +16,15 @@ public class Clothes {
     private String brand;
     private String color;
     
+    public Clothes(int size, int price, String type, String brand, String color){
+        this.size = size;
+        this.price = price;
+        this.type = type;
+        this.brand = brand;
+        this.color = color;
+    
+    }
+    
     public int getSize(){
         return size;
     }

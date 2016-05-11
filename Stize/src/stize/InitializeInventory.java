@@ -7,13 +7,9 @@ package stize;
 
 /**
  *
- * @author evillev6
+ * @author katiadance
  */
-public class Pants extends Clothes{
-    
-    public Pants(int size, int price, String type, String brand, String color) {
-        super(size, price, type, brand, color);
-    }
-    
+public class InitializeInventory {
+    //use this class to create a static inventory object and add to it the different types of clothing
     
 }

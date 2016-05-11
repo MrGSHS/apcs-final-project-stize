@@ -24,7 +24,7 @@ public class Customer {
         low = l;
         high = h;
     }
-    public ArrayList<Clothes>[] findClothes (int size, String color,
+    /**public ArrayList<Clothes> findClothes (int size, String color,
             int low, int high){
         if(type.equals("dress")){
             
@@ -35,8 +35,8 @@ public class Customer {
         if(type.equals("shirt")){
             
         }
-        if(type.equals("skirt"))
+        if(type.equals("skirt")){}
         
-    }
+    }**/
     
 }
