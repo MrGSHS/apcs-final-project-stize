@@ -24,19 +24,21 @@ public class Customer {
         low = l;
         high = h;
     }
-    /**public ArrayList<Clothes> findClothes (int size, String color,
-            int low, int high){
-        if(type.equals("dress")){
-            
-        }
-        if(type.equals("pants")){
-            
-        }
-        if(type.equals("shirt")){
-            
-        }
-        if(type.equals("skirt")){}
-        
-    }**/
+    
+    public int getSize(){
+        return size;
+    }
+    public String getColor(){
+        return color;
+    }
+    public String getType(){
+        return type;
+    }
+    public int getLow(){
+        return low;
+    }
+    public int getHigh(){
+        return high;
+    }
     
 }
