@@ -34,7 +34,7 @@ public class Stize {
         Inventory inventory = new Inventory(InitializeInventory.getDress(),
                 InitializeInventory.getPants(),InitializeInventory.getShirts(),
                 InitializeInventory.getSkirts());
-        Inventory.search(type,low,high);
+        Inventory.search(type,low,high,color);
         
     }
     
