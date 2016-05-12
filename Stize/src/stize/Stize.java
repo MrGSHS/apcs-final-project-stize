@@ -34,7 +34,11 @@ public class Stize {
         Inventory inventory = new Inventory(InitializeInventory.getDress(),
                 InitializeInventory.getPants(),InitializeInventory.getShirts(),
                 InitializeInventory.getSkirts());
-        Inventory.search(type,low,high,color);
+        System.out.println(inventory.search(type,low,high,color));
+        customer.purchase();
+        inventory.remove();
+        System.out.println(customer.printPurchased());
+        System.out.println("Thank you for shopping on Stize! Have a great Day!");
     }
     
 }
