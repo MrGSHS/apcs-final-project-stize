@@ -44,4 +44,16 @@ public class Clothes {
     public String getColor(){
         return color;
     }
+    public boolean inRange(int low, int high){
+        if(price>=low && price <=high){
+            return true;
+        }
+        return false;
+    }
+    
+    public String toString (){
+        String str = "Type: "+type+" Size: " +size+ " Price: "+price +
+                " Brand: "+brand+" Color: "+color;
+                
+    }
 }

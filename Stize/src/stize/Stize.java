@@ -18,8 +18,6 @@ public class Stize {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ///CAN U SEE THIS???
-        ///TESTING
         Scanner c = new Scanner(System.in);
         System.out.println("What article of clothing are you searching for? ");
         String type = c.nextLine();
@@ -33,7 +31,10 @@ public class Stize {
         int high = c.nextInt();
         
         Customer customer = new Customer(type, size, color, low, high);
-        
+        Inventory inventory = new Inventory(InitializeInventory.getDress(),
+                InitializeInventory.getPants(),InitializeInventory.getShirts(),
+                InitializeInventory.getSkirts());
+        Inventory.search(type,low,high);
         
     }
     
