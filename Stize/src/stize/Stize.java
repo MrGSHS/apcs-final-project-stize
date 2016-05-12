@@ -35,7 +35,6 @@ public class Stize {
                 InitializeInventory.getPants(),InitializeInventory.getShirts(),
                 InitializeInventory.getSkirts());
         Inventory.search(type,low,high,color);
-        
     }
     
 }
