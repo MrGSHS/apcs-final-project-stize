@@ -17,7 +17,11 @@ public class Customer {
     private String type;
     private int low;
     private int high;
+<<<<<<< HEAD
     ArrayList<Clothes> purchased = new ArrayList<>();
+=======
+    ArrayList<Clothes> cart = new ArrayList<>();
+>>>>>>> da7c0b9ddb457a7caa6848e91d2b55a8493cf324
     
     public Customer(String t, int s, String c, int l, int h){
         type = t;
@@ -43,10 +47,17 @@ public class Customer {
         return high;
     }
     public void purchase (Clothes c){
+<<<<<<< HEAD
         purchased.add(c);
     }
     public ArrayList<Clothes> printPurchased(){
         return purchased;
+=======
+        cart.add(c);
+    }
+    public ArrayList<Clothes> cart(){
+        return cart;
+>>>>>>> da7c0b9ddb457a7caa6848e91d2b55a8493cf324
     }
     
     

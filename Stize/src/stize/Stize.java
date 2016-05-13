@@ -21,16 +21,17 @@ public class Stize {
         Scanner c = new Scanner(System.in);
         System.out.println("What article of clothing are you searching for? ");
         String type = c.nextLine();
-        System.out.println("What is your size? ");
-        int size = c.nextInt();
         System.out.println("What color would you like? ");
         String color = c.nextLine();
+        System.out.println("What is your size? ");
+        int size = c.nextInt();
         System.out.println("What is the low end of your price range? ");
         int low = c.nextInt();
         System.out.println("What is the high end of your price range? ");
         int high = c.nextInt();
         
         Customer customer = new Customer(type, size, color, low, high);
+
         Inventory inventory = new Inventory(InitializeInventory.getDress(),
                 InitializeInventory.getPants(),InitializeInventory.getShirts(),
                 InitializeInventory.getSkirts());
@@ -38,6 +39,15 @@ public class Stize {
         customer.purchase();
         inventory.remove();
         System.out.println(customer.printPurchased());
+
+        //Inventory inventory = new Inventory(InitializeInventory.getDress(),
+         //       InitializeInventory.getPants(),InitializeInventory.getShirts(),
+         //       InitializeInventory.getSkirts());
+        //System.out.println(inventory.search(type,low,high,color));
+        //customer.purchase();
+        //inventory.remove();
+        System.out.println(customer.cart());
+
         System.out.println("Thank you for shopping on Stize! Have a great Day!");
     }
     

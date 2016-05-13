@@ -42,8 +42,11 @@ public class Pants extends Clothes{
     }
     
     public String toString (){
-        String str = "Type: "+super.getType()+" Size: " +super.getSize()+ " Price: "+super.getPrice() +
-                " Brand: "+super.getBrand()+" Color: "+super.getColor();
+
+
+        String str = "\nType: "+super.getType()+"\nSize: " +super.getSize()+ "\nPrice: "+super.getPrice() +
+                "\nBrand: "+super.getBrand()+"\nColor: "+super.getColor();
+
         return str;        
     }
     
