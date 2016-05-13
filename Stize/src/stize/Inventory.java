@@ -29,23 +29,23 @@ public class Inventory {
      //can have customer choose in what order the objects should be sorted in (filters)
  
  }   
-    public ArrayList<Dress> getDresses(){
+ public ArrayList<Dress> getDresses(){
         return dresses;
-    }
+ }
     
-    public ArrayList<Pants> getPants(){
+ public ArrayList<Pants> getPants(){
         return pants;
-    }
+ }
     
-    public ArrayList<Shirt> getShirts(){
+ public ArrayList<Shirt> getShirts(){
         return shirts;
-    }
+ }
     
-    public ArrayList<Skirt> getSkirts(){
+ public ArrayList<Skirt> getSkirts(){
         return skirts;
-    }
+ }
     
-    public Clothes[] search(String type, int low, int high, String color){
+ public Clothes[] search(String type, int low, int high, String color){
         ArrayList<Clothes> results = new ArrayList<>();
         Clothes[] searchResults;
         int lowIndex=0;
@@ -91,8 +91,39 @@ public class Inventory {
             ctr++;
         }
         
-         return searchResults;   
+         return searchResults;
+ }
         
-        
+ public void purchase(Clothes c){
+    if (c.getType().equals("dress")){
+        for (int i=0;i<dresses.size();i++){
+            if (c==dresses.get(i)){
+                dresses.remove(i);
+            }
+        }
     }
+    else if (c.getType().equals("pants")){
+        for (int i=0;i<pants.size();i++){
+            if (c==pants.get(i)){
+                pants.remove(i);
+            }
+        }
+    }
+    else if (c.getType().equals("shirts")){
+        for (int i=0;i<shirts.size();i++){
+            if (c==shirts.get(i)){
+                shirts.remove(i);
+            }
+        }
+    }
+    else{
+        for (int i=0;i<skirts.size();i++){
+            if (c==skirts.get(i)){
+                skirts.remove(i);
+            }
+        }
+    }
+ }
+        
 }
+
