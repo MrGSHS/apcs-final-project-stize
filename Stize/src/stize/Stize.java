@@ -31,21 +31,15 @@ public class Stize {
         int high = c.nextInt();
         
         Customer customer = new Customer(type, size, color, low, high);
-
-        Inventory inventory = new Inventory(InitializeInventory.getDress(),
-                InitializeInventory.getPants(),InitializeInventory.getShirts(),
-                InitializeInventory.getSkirts());
+        
+        InitializeInventory data = new InitializeInventory();
+        Inventory inventory = new Inventory(data.getDresses(),
+                data.getPants(),data.getShirts(),data.getSkirts());
         System.out.println(inventory.search(type,low,high,color));
         customer.purchase();
         inventory.remove();
-        System.out.println(customer.printPurchased());
+        System.out.println(customer.cart());
 
-        //Inventory inventory = new Inventory(InitializeInventory.getDress(),
-         //       InitializeInventory.getPants(),InitializeInventory.getShirts(),
-         //       InitializeInventory.getSkirts());
-        //System.out.println(inventory.search(type,low,high,color));
-        //customer.purchase();
-        //inventory.remove();
         System.out.println(customer.cart());
 
         System.out.println("Thank you for shopping on Stize! Have a great Day!");
