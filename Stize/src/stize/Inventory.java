@@ -45,12 +45,12 @@ public class Inventory {
         return skirts;
     }
     
-    public Clothes[] search(String type, int low, int high){
+    public Clothes[] search(String type, int low, int high, String color){
         ArrayList<Clothes> results = new ArrayList<>();
         Clothes[] searchResults;
         int lowIndex=0;
         int highIndex=0;
-         if(type.equals("dress")){
+        if(type.equals("dress")){
             for (Dress d : dresses) {
                 results.add(d);
             }
@@ -70,6 +70,13 @@ public class Inventory {
            for (Skirt s : skirts) {
                 results.add(s);
             }
+           
+        for (int j=0;j<results.size();j++){
+            if (!(results.get(j).getColor().equals(color))){
+                results.remove(j);
+            }
+        }
+        
         while(results.get(lowIndex).getPrice()<low){
             lowIndex++;
             highIndex = lowIndex;
@@ -83,6 +90,7 @@ public class Inventory {
             searchResults[ctr] = results.get(i);
             ctr++;
         }
+        
          return searchResults;   
         
         
