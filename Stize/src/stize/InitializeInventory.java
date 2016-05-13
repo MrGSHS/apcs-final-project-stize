@@ -35,6 +35,9 @@ public class InitializeInventory {
     Dress dress9 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue");
     Dress dress10 = new Dress((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue");
     dresses.add(dress1);
+    dresses.add(dress2);
+    dresses.add(dress3);
+    dresses.add(dress4);
     
     }
     
