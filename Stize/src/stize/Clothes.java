@@ -52,8 +52,8 @@ public class Clothes {
     }
     
     public String toString (){
-        String str = "Type: "+type+" Size: " +size+ " Price: "+price +
-                " Brand: "+brand+" Color: "+color;
+        String str = "\nType: "+type+"\nSize: " +size+ "\nPrice: "+price +
+                "\nBrand: "+brand+"\nColor: "+color;
         return str;        
     }
 }
