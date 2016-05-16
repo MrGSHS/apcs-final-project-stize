@@ -37,7 +37,7 @@ public class Stize {
                 data.getPants(),data.getShirts(),data.getSkirts());
         System.out.println(inventory.search(type,low,high,color));
         customer.purchase();
-        inventory.remove();
+        inventory.purchase();
         System.out.println(customer.cart());
 
         System.out.println(customer.cart());
