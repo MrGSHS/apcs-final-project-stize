@@ -11,8 +11,8 @@ package stize;
  */
 public class Shirt extends Clothes{
     
-    public Shirt(int size, int price, String type, String brand, String color) {
-        super(size, price, type, brand, color);
+    public Shirt(int size, int price, String brand, String color) {
+        super(size, price, "shirt", brand, color);
     }
     
     public int getSize(){
