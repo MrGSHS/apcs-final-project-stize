@@ -11,12 +11,6 @@ package my.contacteditor;
  */
 public class ContactEditorUI extends javax.swing.JPanel {
 
-    private String name;
-    private String type;
-    private String color;
-    private int size;
-    private int min;
-    private int max;
     /**
      * Creates new form ContactEditorUI
      */
@@ -235,6 +229,13 @@ public class ContactEditorUI extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private String name;
+    private String type;
+    private String color;
+    private int size;
+    private int min;
+    private int max;
+    
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         name=jTextField1.getText();
     }//GEN-LAST:event_jTextField1ActionPerformed
@@ -248,7 +249,7 @@ public class ContactEditorUI extends javax.swing.JPanel {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
-        max=Integer.parseInt(jTextField6.getText());
+       max=Integer.parseInt(jTextField6.getText());
     }//GEN-LAST:event_jTextField6ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
@@ -260,7 +261,7 @@ public class ContactEditorUI extends javax.swing.JPanel {
     }//GEN-LAST:event_jTextField3ActionPerformed
 
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
-       color=jTextField4.getText();
+        color=jTextField4.getText();
     }//GEN-LAST:event_jTextField4ActionPerformed
 
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
