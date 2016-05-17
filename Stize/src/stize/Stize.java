@@ -5,6 +5,7 @@
  */
 package stize;
 
+import Image.ResultDisplay;
 import java.util.Scanner;
 
 /**
@@ -30,6 +31,8 @@ public class Stize {
         System.out.println("What is the high end of your price range? ");
         int high = c.nextInt();
         
+        
+        /*
         Customer customer = new Customer(type, size, color, low, high);
         
         InitializeInventory data = new InitializeInventory();
@@ -42,6 +45,23 @@ public class Stize {
         System.out.println(customer.cart());
 
         System.out.println("Thank you for shopping on Stize! Have a great Day!");
-    }
+    */
+        
+         Customer customer = new Customer(type, size, color, low, high);
+         /*Inventory inventory = new Inventory(InitializeInventory.getDresses(),
+         InitializeInventory.getPants(),InitializeInventory.getShirts(),
+         InitializeInventory.getSkirts()); 
+         searchResults = inventory.search(type,low,high,color);*/
+         searchResults.add(new Clothes(1,4,"pants","polo","red","/images/newpackage/beach.jpg"));
+         searchResults.add(new Clothes(1,4,"pants","polo","green","/images/newpackage/caterpillar.jpg"));
+         /*System.out.println(inventory.search(type,low,high,color));
+         customer.purchase();
+         inventory.remove();*/
+         /*System.out.println(customer.printPurchased());*/
+         new ResultDisplay(searchResults).setVisible(true);
+         System.out.println("Thank you for shopping on Stize! Have a great Day!");
+        
+
+                }
     
 }
