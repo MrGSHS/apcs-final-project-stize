@@ -229,8 +229,15 @@ public class ContactEditorUI extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private String name;
+    private String type;
+    private String color;
+    private int size;
+    private int min;
+    private int max;
+    
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        String name=jTextField1.getText();
+        name=jTextField1.getText();
     }//GEN-LAST:event_jTextField1ActionPerformed
   
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -242,23 +249,23 @@ public class ContactEditorUI extends javax.swing.JPanel {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
-        int max=Integer.parseInt(jTextField6.getText());
+       max=Integer.parseInt(jTextField6.getText());
     }//GEN-LAST:event_jTextField6ActionPerformed
 
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
-      int size=Integer.parseInt(jTextField2.getText());
+      size=Integer.parseInt(jTextField2.getText());
     }//GEN-LAST:event_jTextField2ActionPerformed
 
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
-        String type=jTextField3.getText();
+       type=jTextField3.getText();
     }//GEN-LAST:event_jTextField3ActionPerformed
 
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
-        String color=jTextField4.getText();
+        color=jTextField4.getText();
     }//GEN-LAST:event_jTextField4ActionPerformed
 
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
-        int min=Integer.parseInt(jTextField5.getText());
+        min=Integer.parseInt(jTextField5.getText());
     }//GEN-LAST:event_jTextField5ActionPerformed
 
 

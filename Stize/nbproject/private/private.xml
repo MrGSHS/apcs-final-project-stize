@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/Users/tsheu6/Desktop/apcs-final-project-stize/Stize/src/stize/Shirt.java</file>
             <file>file:/Users/tsheu6/Desktop/apcs-final-project-stize/Stize/src/stize/Clothes.java</file>
             <file>file:/Users/tsheu6/Desktop/apcs-final-project-stize/Stize/nbproject/project.xml</file>
@@ -14,6 +15,18 @@
             <file>file:/Users/tsheu6/Desktop/apcs-final-project-stize/Stize/src/stize/Pants.java</file>
             <file>file:/Users/tsheu6/Desktop/apcs-final-project-stize/Stize/src/stize/Inventory.java</file>
             <file>file:/Users/tsheu6/Desktop/apcs-final-project-stize/Stize/src/stize/Images.java</file>
+=======
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/Pants.java</file>
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/Skirt.java</file>
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/Inventory.java</file>
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/Stize.java</file>
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/Shirt.java</file>
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/Dress.java</file>
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/InitializeInventory.java</file>
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/Image.java</file>
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/Clothes.java</file>
+            <file>file:/Users/evillev6/Desktop/apcs-final-project-stize/Stize/src/stize/Customer.java</file>
+>>>>>>> 7c8feb60411cb6fee557af1c15ce40d15c59bf76
         </group>
     </open-files>
 </project-private>
