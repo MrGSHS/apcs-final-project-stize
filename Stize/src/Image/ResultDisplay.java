@@ -270,7 +270,7 @@ private void clickPervious(java.awt.event.MouseEvent evt) {
 //        }
 //        //</editor-fold>
 //
-//        /* Create and display the form */
+//        /* Create and display the form */ 
 //        java.awt.EventQueue.invokeLater(new Runnable() {
 //            public void run() {
 //                new ResultDisplay().setVisible(true);
