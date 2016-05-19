@@ -1,32 +1,14 @@
 package Image;
-
-
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
-
-/**
- *
- * @author tsheu6
- */
-public class ResultDisplay {
-    /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package images;
 import java.util.ArrayList;
 import stize.Clothes;
 import stize.Stize;
-/**
- *
- * @author TinyGirl
- */
+
 public class ResultDisplay extends javax.swing.JFrame {
 
     /**
@@ -288,4 +270,4 @@ private void clickPervious(java.awt.event.MouseEvent evt) {
 }
 
 
-}
+

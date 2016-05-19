@@ -1,34 +1,12 @@
 package Image;
-
 import stize.Clothes;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author tsheu6
- */
-public class ResultsDisplay {
-    /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package images;
 import java.util.ArrayList;
 import stize.Clothes;
 import stize.Stize;
-/**
- *
- * @author TinyGirl
- */
-public class ResultsDisplay extends javax.swing.JFrame {
 
-    /**
+
+public class ResultsDisplay extends javax.swing.JFrame {
+     /**
      * Creates new form ResultDisplay
      */
     private ArrayList<Clothes> clothes;
@@ -50,11 +28,11 @@ public class ResultsDisplay extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/newpackage/rightArrow.gif"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/newpackage/img-thing.gif"))); // NOI18N
         jLabel1.setText("Next");
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.LEADING);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/newpackage/leftArrow.gif"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/newpackage/FCD6D9AF.gif"))); // NOI18N
         jLabel2.setText("Previous");
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource(clothes.get(0).getFilename()))); // NOI18N
@@ -114,4 +92,4 @@ public class ResultsDisplay extends javax.swing.JFrame {
 
 
 
-}
+

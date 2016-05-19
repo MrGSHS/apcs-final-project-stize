@@ -52,8 +52,8 @@ public class Stize {
          InitializeInventory.getPants(),InitializeInventory.getShirts(),
          InitializeInventory.getSkirts()); 
          searchResults = inventory.search(type,low,high,color);*/
-         searchResults.add(new Clothes(1,4,"pants","polo","red","/images/newpackage/beach.jpg"));
-         searchResults.add(new Clothes(1,4,"pants","polo","green","/images/newpackage/caterpillar.jpg"));
+         searchResults.add(new Clothes(1,4,"pants","polo","red","/images/newpackage/greenskirt.jpg"));
+         searchResults.add(new Clothes(1,4,"pants","polo","green","/images/newpackage/redbowskirt.jpg"));
          /*System.out.println(inventory.search(type,low,high,color));
          customer.purchase();
          inventory.remove();*/
