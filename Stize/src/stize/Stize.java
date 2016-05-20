@@ -5,7 +5,6 @@
  */
 package stize;
 
-import Image.ResultDisplay;
 import java.util.Scanner;
 
 /**
