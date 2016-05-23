@@ -23,17 +23,7 @@ public class Stize {
         ArrayList<Clothes> searchResult = new ArrayList<>();
         ArrayList<Clothes> item = new ArrayList<>();
         // TODO code application logic here
-        /*Scanner c = new Scanner(System.in);
-        System.out.println("What article of clothing are you searching for? ");
-        String type = c.nextLine();
-        System.out.println("What color would you like? ");
-        String color = c.nextLine();
-        System.out.println("What is your size? ");
-        int size = c.nextInt();
-        System.out.println("What is the low end of your price range? ");
-        int low = c.nextInt();
-        System.out.println("What is the high end of your price range? ");
-        int high = c.nextInt();*/
+        
         String brand=" ", type = " ", color = " ";
         int size=0, low=0, high=0;
         new ContactEditorUI().setVisible(true);
