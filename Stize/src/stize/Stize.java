@@ -5,9 +5,11 @@
  */
 package stize;
 
-import Image.ResultDisplay;
 import java.util.Scanner;
-
+import stize.IU.ContactEditorIU;
+import images.ResultDisplay;
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
 /**
  *
  * @author evillev6
@@ -18,8 +20,10 @@ public class Stize {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        ArrayList<Clothes> searchResult = new ArrayList<>();
+        ArrayList<Clothes> item = new ArrayList<>();
         // TODO code application logic here
-        Scanner c = new Scanner(System.in);
+        /*Scanner c = new Scanner(System.in);
         System.out.println("What article of clothing are you searching for? ");
         String type = c.nextLine();
         System.out.println("What color would you like? ");
@@ -29,17 +33,16 @@ public class Stize {
         System.out.println("What is the low end of your price range? ");
         int low = c.nextInt();
         System.out.println("What is the high end of your price range? ");
-        int high = c.nextInt();
-        
-        
-        /*
-        Customer customer = new Customer(type, size, color, low, high);
-        
+        int high = c.nextInt();*/
+        String brand=" ", type = " ", color = " ";
+        int size=0, low=0, high=0;
+        new ContactEditorIU().setVisible(true);
+        /*Customer customer = new Customer(brand, type, size, color, low, high);*/
         InitializeInventory data = new InitializeInventory();
         Inventory inventory = new Inventory(data.getDresses(),
                 data.getPants(),data.getShirts(),data.getSkirts());
         System.out.println(inventory.search(type,low,high,color));
-        customer.purchase();
+        /*customer.purchase();
         inventory.purchase(); 
 
         System.out.println(customer.cart());
@@ -47,21 +50,28 @@ public class Stize {
         System.out.println("Thank you for shopping on Stize! Have a great Day!");
     */
         
-         Customer customer = new Customer(type, size, color, low, high);
+         /*Customer customer = new Customer(type, size, color, low, high);*/
          /*Inventory inventory = new Inventory(InitializeInventory.getDresses(),
          InitializeInventory.getPants(),InitializeInventory.getShirts(),
-         InitializeInventory.getSkirts()); 
-         searchResults = inventory.search(type,low,high,color);*/
-         searchResults.add(new Clothes(1,4,"pants","polo","red","/images/newpackage/greenskirt.jpg"));
-         searchResults.add(new Clothes(1,4,"pants","polo","green","/images/newpackage/redbowskirt.jpg"));
+         InitializeInventory.getSkirts()); */
+         JOptionPane.showMessageDialog(null, new ContactEditorIU());
+         new ContactEditorIU();
+         /*searchResult = inventory.search(type,low,high,color);*/
+         searchResult.add(new Clothes(1,4,"Polo","White","/images/newpackage/DenimSkirt.jpg"));
+         searchResult.add(new Clothes(1,10,"Norm","Red","/images/newpackage/bluedenimshirt.jpg"));
          /*System.out.println(inventory.search(type,low,high,color));
          customer.purchase();
          inventory.remove();*/
          /*System.out.println(customer.printPurchased());*/
-         new ResultDisplay(searchResults).setVisible(true);
+         new ResultDisplay(searchResult).setVisible(true);
          System.out.println("Thank you for shopping on Stize! Have a great Day!");
         
 
                 }
     
 }
+
+
+
+
+
