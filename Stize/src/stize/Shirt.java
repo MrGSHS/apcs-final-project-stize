@@ -12,7 +12,7 @@ package stize;
 public class Shirt extends Clothes{
     
     public Shirt(int size, int price, String brand, String color, String fileName) {
-        super(size, price, "shirt", brand, color, fileName);
+        super(size, price, brand, color, fileName);
     }
     
     public int getSize(){
@@ -23,9 +23,6 @@ public class Shirt extends Clothes{
         return super.getPrice();
     }
     
-    public String getType(){
-        return super.getType();
-    }
     
     public String getBrand(){
         return super.getBrand();
@@ -46,7 +43,7 @@ public class Shirt extends Clothes{
     
     public String toString (){
 
-        String str = "\nType: "+super.getType()+"\nSize: " +super.getSize()+ "\nPrice: "+super.getPrice() +
+        String str = "\nSize: " +super.getSize()+ "\nPrice: "+super.getPrice() +
                 "\nBrand: "+super.getBrand()+"\nColor: "+super.getColor();
 
         return str;        

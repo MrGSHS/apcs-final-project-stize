@@ -5,6 +5,14 @@
  */
 package stize;
 import java.util.*;
+import stize.Clothes;
+import stize.Clothes;
+import stize.Customer;
+import stize.Customer;
+import stize.InitializeInventory;
+import stize.InitializeInventory;
+import stize.Inventory;
+import stize.Inventory;
 
 /**
  *
@@ -251,7 +259,7 @@ private Inventory inventory;
         this.setVisible(false);
         //this.dispose();
         ArrayList<Clothes> clothes= inventory.search(type,min, max,color);
-        ResultsDisplay(clothes);
+        ResultDisplay(clothes);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
