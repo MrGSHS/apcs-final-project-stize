@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package stize;
+import java.util.*;
 
 /**
  *
@@ -246,10 +247,11 @@ private Inventory inventory;
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         currentCustomer=new Customer(type, size, color, min, max);
-        inventory.search(type,min, max,color);
+        
         this.setVisible(false);
         //this.dispose();
-        resultFrame.setVisible(true);
+        ArrayList<Clothes> clothes= inventory.search(type,min, max,color);
+        ResultsDisplay(clothes);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed

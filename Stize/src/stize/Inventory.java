@@ -45,9 +45,10 @@ public class Inventory {
         return skirts;
  }
     
- public Clothes[] search(String type, int low, int high, String color){
+ public ArrayList<Clothes> search(String type, int low, int high, String color){
         ArrayList<Clothes> results = new ArrayList<>();
-        Clothes[] searchResults;
+        ArrayList<Clothes> searchResults = new ArrayList<>();
+        //Clothes[] searchResults;
         int lowIndex=0;
         int highIndex=0;
         if(type.equals("dress")){
@@ -84,16 +85,12 @@ public class Inventory {
         while(results.get(highIndex).getPrice()<high){
             highIndex++;
         }
-        searchResults = new Clothes[highIndex - lowIndex];
-        int ctr = 0;
         for(int i = lowIndex; i < highIndex+1; i++){
-            searchResults[ctr] = results.get(i);
-            ctr++;
+            searchResults.add(results.get(i));
         }
-        
-         return searchResults;
+        return searchResults;
  }
-        
+}  /*
  public void purchase(Clothes c){
     if (c.getType().equals("dress")){
         for (int i=0;i<dresses.size();i++){
@@ -126,4 +123,7 @@ public class Inventory {
  }
         
 }
+*/
+
+
 

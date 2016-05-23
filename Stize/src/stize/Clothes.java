@@ -12,15 +12,13 @@ package stize;
 public class Clothes {
     private int size;
     private int price;
-    private String type;
     private String brand;
     private String color;
     private String fileName;
     
-    public Clothes(int size, int price, String type, String brand, String color, String fileName){
+    public Clothes(int size, int price, String brand, String color, String fileName){
         this.size = size;
         this.price = price;
-        this.type = type;
         this.brand = brand;
         this.color = color;
         this.fileName= fileName;
@@ -32,10 +30,6 @@ public class Clothes {
     
     public int getPrice(){
         return price;
-    }
-    
-    public String getType(){
-        return type;
     }
     
     public String getBrand(){
@@ -58,9 +52,14 @@ public class Clothes {
     
     public String toString (){
 
-        String str = "\nType: "+type+"\nSize: " +size+ "\nPrice: "+price +
+        String str = "\nSize: " +size+ "\nPrice: "+price +
                 "\nBrand: "+brand+"\nColor: "+color;
 
         return str;        
     }
 }
+
+
+
+
+
