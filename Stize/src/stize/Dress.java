@@ -35,6 +35,9 @@ public class Dress extends Clothes{
         return super.getColor();
     }
     
+    public String getFilename(){
+        return super.getFilename();
+    }
     
     public boolean inRange(int low, int high){
         if(super.getPrice()>=low && super.getPrice() <=high){

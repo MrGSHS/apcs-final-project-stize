@@ -11,8 +11,8 @@ package stize;
  */
 public class Pants extends Clothes{
     
-    public Pants(int size, int price, String brand, String color) {
-        super(size, price, "pants", brand, color);
+    public Pants(int size, int price, String brand, String color, String fileName) {
+        super(size, price, "pants", brand, color, fileName);
     }
     
     public int getSize(){
@@ -33,6 +33,9 @@ public class Pants extends Clothes{
     
     public String getColor(){
         return super.getColor();
+    }
+    public String getFilename(){
+        return super.getFilename();
     }
     public boolean inRange(int low, int high){
         if(super.getPrice()>=low && super.getPrice() <=high){
