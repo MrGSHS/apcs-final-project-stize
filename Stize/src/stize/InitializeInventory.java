@@ -120,16 +120,16 @@ public class InitializeInventory {
     public ArrayList<Pants> getPants(){
         
         //finish creating pants fix method names in stize
-    Pants pants1 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/redpants.jpg");
-    Pants pants2 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "blue", "/images/newpackage/redpants.jpg");
-    Pants pants3 = new Pants((int)Math.random()*3+1,(int)Math.random()*100+100,"Burberry", "blue", "/images/newpackage/redpants.jpg");
-    Pants pants4 = new Pants((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue", "redpants.jpg");
-    Pants pants5 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue", "/images/newpackage/redpants.jpg");
-    Pants pants6 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/redpants.jpg");
-    Pants pants7 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/redpants.jpg");
-    Pants pants8 = new Pants((int)Math.random()*3+1,(int)Math.random()*20+10,"Sears", "blue", "/images/newpackage/redpants.jpg");
-    Pants pants9 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue", "/images/newpackage/redpants.jpg");
-    Pants pants10 = new Pants((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue", "/images/newpackage/redpants.jpg");
+    Pants pants1 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "pink", "H&M - pink pants.jpg");
+    Pants pants2 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "purple", "Sears - purple pants.jpeg");
+    Pants pants3 = new Pants((int)Math.random()*3+1,(int)Math.random()*100+100,"Burberry", "red", "Burberry - red pants.jpeg");
+    Pants pants4 = new Pants((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "black", "American Eagle - black pants.jpeg");
+    Pants pants5 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "pink", "Forever 21 - pink pants.jpeg");
+    Pants pants6 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "red", "H&M - red pants.jpg");
+    Pants pants7 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "black", "H&M - black pants.jpeg");
+    Pants pants8 = new Pants((int)Math.random()*3+1,(int)Math.random()*20+10,"Sears", "white", "Sears - white pants.jpeg");
+    Pants pants9 = new Pants((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "purple", "Forever 21 - purple pants.jpeg");
+    Pants pants10 = new Pants((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "pink", "American Eagle - pink pants.jpeg");
     pants.add(pants1);
     pants.add(pants2);
     pants.add(pants3);
