@@ -24,10 +24,10 @@ public class InitializeInventory {
     public InitializeInventory(){};
     
     public ArrayList<Dress> getDresses(){
-    Dress dress1 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/DenimSkirt.jpg");
-    Dress dress2 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "blue", "/images/newpackage/DenimSkirt.jpg");
-    Dress dress3 = new Dress((int)Math.random()*3+1,(int)Math.random()*100+100,"Burberry", "blue", "/images/newpackage/DenimSkirt.jpg");
-    Dress dress4 = new Dress((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue", "/images/newpackage/DenimSkirt.jpg");
+    Dress dress1 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/blueDress1.jpg");
+    Dress dress2 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "blue", "/images/newpackage/blueDress2.jpg");
+    Dress dress3 = new Dress((int)Math.random()*3+1,(int)Math.random()*100+100,"Burberry", "red", "/images/newpackage/redBurberrydress.jpg");
+    Dress dress4 = new Dress((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue", "/images/newpackage/AEblueDress.jpg");
     Dress dress5 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue", "/images/newpackage/DenimSkirt.jpg");
     Dress dress6 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/DenimSkirt.jpg");
     Dress dress7 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/DenimSkirt.jpg");

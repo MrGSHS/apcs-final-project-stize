@@ -13,6 +13,7 @@ import stize.InitializeInventory;
 import stize.InitializeInventory;
 import stize.Inventory;
 import stize.Inventory;
+import image.ResultDisplay;
 
 /**
  *
@@ -238,7 +239,7 @@ private Inventory inventory;
         this.setVisible(false);
         //this.dispose();
         ArrayList<Clothes> clothes= inventory.search(type,min, max,color);
-        ResultDisplay(clothes);
+        new ResultDisplay(clothes).setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
