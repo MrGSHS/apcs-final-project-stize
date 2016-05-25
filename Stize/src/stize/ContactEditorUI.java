@@ -129,8 +129,7 @@ private Inventory inventory;
             }
         });
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/newpackage/Stize logo 2.png"))); // NOI18N
-        jLabel7.setText("jLabel7");
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/Images/newpackage/Stize logo 2.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
