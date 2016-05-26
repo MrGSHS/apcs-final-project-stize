@@ -27,13 +27,13 @@ public class InitializeInventory {
     Dress dress1 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/blueDress1.jpg");
     Dress dress2 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "blue", "/images/newpackage/blueDress2.jpg");
     Dress dress3 = new Dress((int)Math.random()*3+1,(int)Math.random()*100+100,"Burberry", "red", "/images/newpackage/redBurberrydress.jpg");
-    Dress dress4 = new Dress((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue", "/images/newpackage/AEblueDress.jpg");
-    Dress dress5 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue", "/images/newpackage/DenimSkirt.jpg");
-    Dress dress6 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/DenimSkirt.jpg");
-    Dress dress7 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/DenimSkirt.jpg");
-    Dress dress8 = new Dress((int)Math.random()*3+1,(int)Math.random()*20+10,"Sears", "blue", "/images/newpackage/DenimSkirt.jpg");
-    Dress dress9 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue", "/images/newpackage/DenimSkirt.jpg");
-    Dress dress10 = new Dress((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue", "/images/newpackage/DenimSkirt.jpg");
+    Dress dress4 = new Dress((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "red", "/images/newpackage/AEredDress.jpg");
+    Dress dress5 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "white", "/images/newpackage/21WhiteDress.jpg");
+    Dress dress6 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "white", "/images/newpackage/HMWhiteDress.jpg");
+    Dress dress7 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "green", "/images/newpackage/HMgreenDress.jpg");
+    Dress dress8 = new Dress((int)Math.random()*3+1,(int)Math.random()*20+10,"Sears", "black", "/images/newpackage/searsBlackDress.jpg");
+    Dress dress9 = new Dress((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "black", "/images/newpackage/21BlackDress.jpg");
+    Dress dress10 = new Dress((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue", "/images/newpackage/AEblueDress.jpg");
     dresses.add(dress1);
     dresses.add(dress2);
     dresses.add(dress3);
@@ -49,22 +49,22 @@ public class InitializeInventory {
     }
     
   public ArrayList<Skirt> getSkirts(){
-    Skirt skirt1 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "green", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt2 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "red", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt3 = new Skirt((int)Math.random()*3+1,(int)Math.random()*100+100,"Burberry", "red", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt4 = new Skirt((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt5 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "red", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt6 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "green", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt7 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "green", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt8 = new Skirt((int)Math.random()*3+1,(int)Math.random()*20+10,"Sears", "red", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt9 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "black", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt10 = new Skirt((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "green","/images/newpackage/redbowskirt.jpg");
-    Skirt skirt11 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "blue", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt12 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "red", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt13 = new Skirt((int)Math.random()*3+1,(int)Math.random()*20+10,"Sears", "red", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt14 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "red","/images/newpackage/redbowskirt.jpg");
-    Skirt skirt15 = new Skirt((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue", "/images/newpackage/redbowskirt.jpg");
-    Skirt skirt16 = new Skirt((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "blue","/images/newpackage/redbowskirt.jpg");
+    Skirt skirt1 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue", "/images/newpackage/21blueSkirt.jpg");
+    Skirt skirt2 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue", "/images/newpackage/21blueSkirt2.jpg");
+    Skirt skirt3 = new Skirt((int)Math.random()*3+1,(int)Math.random()*100+100,"Forever 21", "red", "/images/newpackage/21redSkirt.jpg");
+    Skirt skirt4 = new Skirt((int)Math.random()*3+1,(int)Math.random()*40+10,"Forever 21", "red", "/images/newpackage/21RedSkirt2.jpg");
+    Skirt skirt5 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"American Eagle", "red", "/images/newpackage/AEredskirt.jpg");
+    Skirt skirt6 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"American Eagle", "red", "/images/newpackage/AEredSkirt2.jpg");
+    Skirt skirt7 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Burberry", "red", "/images/newpackage/BurberryRedSkirt.jpg");
+    Skirt skirt8 = new Skirt((int)Math.random()*3+1,(int)Math.random()*20+10,"H&M", "red", "/images/newpackage/HMredSkirt.jpg");
+    Skirt skirt9 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "red", "/images/newpackage/SearsredSkirt.jpg");
+    Skirt skirt10 = new Skirt((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "green","/images/newpackage/AEgreenSkirt.jpg");
+    Skirt skirt11 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Burberry", "green", "/images/newpackage/BurberryGreenSkirt.jpg");
+    Skirt skirt12 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "green", "/images/newpackage/HMgreenSkirt.jpg");
+    Skirt skirt13 = new Skirt((int)Math.random()*3+1,(int)Math.random()*20+10,"H&M", "green", "/images/newpackage/HMgreenSkirt2.jpg");
+    Skirt skirt14 = new Skirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "green","/images/newpackage/SearsgreenSkirt.jpg");
+    Skirt skirt15 = new Skirt((int)Math.random()*3+1,(int)Math.random()*40+10,"Sears", "black", "/images/newpackage/SearsblackSkirt.jpg");
+    Skirt skirt16 = new Skirt((int)Math.random()*3+1,(int)Math.random()*40+10,"Burberry", "black","/images/newpackage/BurberryBlackSkirt.jpg");
     
     skirts.add(skirt1);
     skirts.add(skirt2);
@@ -86,20 +86,20 @@ public class InitializeInventory {
     
     }
     public ArrayList<Shirt> getShirts(){
-    Shirt shirt1 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "white", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt2 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "green", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt3 = new Shirt((int)Math.random()*3+1,(int)Math.random()*100+100,"Burberry", "white", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt4 = new Shirt((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "white", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt5 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "white","/images/newpackage/bluedenimshirt.jpg" );
-    Shirt shirt6 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "white", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt7 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "white", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt8 = new Shirt((int)Math.random()*3+1,(int)Math.random()*20+10,"Sears", "blue","/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt9 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt10 = new Shirt((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "black", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt11 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "black", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt12 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Sears", "black", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt13 = new Shirt((int)Math.random()*3+1,(int)Math.random()*100+100,"Burberry", "green", "/images/newpackage/bluedenimshirt.jpg");
-    Shirt shirt14 = new Shirt((int)Math.random()*3+1,(int)Math.random()*40+10,"American Eagle", "green", "/images/newpackage/bluedenimshirt.jpg");
+    Shirt shirt1 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Forever 21", "blue", "/images/newpackage/21blueShirt.jpg");
+    Shirt shirt2 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"American Eagle", "blue", "/images/newpackage/AEBlueShirt.jpg");
+    Shirt shirt3 = new Shirt((int)Math.random()*3+1,(int)Math.random()*100+100,"H&M", "blue", "/images/newpackage/HMBlueShirt.jpg");
+    Shirt shirt4 = new Shirt((int)Math.random()*3+1,(int)Math.random()*40+10,"Sears", "blue", "/images/newpackage/SearsBlueShirt.jpg");
+    Shirt shirt5 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"American Eagle", "green","/images/newpackage/AEgreenShirt.jpg" );
+    Shirt shirt6 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"Burberry", "green", "/images/newpackage/BurberryGreenShirt.jpg");
+    Shirt shirt7 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "green", "/images/newpackage/HMgreenShirt.jpg");
+    Shirt shirt8 = new Shirt((int)Math.random()*3+1,(int)Math.random()*20+10,"Sears", "green","/images/newpackage/SearsGreenShirt.jpg");
+    Shirt shirt9 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"American Eagle", "white", "/images/newpackage/AEwhiteShirt.jpg");
+    Shirt shirt10 = new Shirt((int)Math.random()*3+1,(int)Math.random()*40+10,"Burberry", "white", "/images/newpackage/BurberryWhiteShirt.jpg");
+    Shirt shirt11 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "white", "/images/newpackage/HMwhiteShirt.jpg");
+    Shirt shirt12 = new Shirt((int)Math.random()*3+1,(int)Math.random()*10+10,"H&M", "white", "/images/newpackage/HMwhiteShirt2.jpg");
+    Shirt shirt13 = new Shirt((int)Math.random()*3+1,(int)Math.random()*100+100,"Burberry", "black", "/images/newpackage/BurberryBlackShirt.jpg");
+    Shirt shirt14 = new Shirt((int)Math.random()*3+1,(int)Math.random()*40+10,"Sears", "black", "/images/newpackage/SearsblackShirt.jpg");
     
     shirts.add(shirt1);
     shirts.add(shirt2);
