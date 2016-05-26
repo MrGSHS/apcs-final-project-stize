@@ -1,18 +1,15 @@
-# apcs-final-project-stize
-apcs-final-project-stize created by GitHub Classroom
+# STIZE
 
----PROJECT TITLE---
-STIZE
 Creators: Tiffany, Grace, Aareana, Katia
 
----PROBLEM---
+###PROBLEM
 Often it is hard for higher-number sized customers to find a good selection of clothes. Stize makes shopping plus size more accessible by combining the offers of several merchants (i.e. Forever 21, H&M, American Eagle) onto one websites so that customers will have an easier time finding a variety of clothing styles in their size.
 
----USERS---
+###USERS
 Plus size customers
 Clothing Retail Store Merchants
 
----DESCRIPTION OF CLASSES---
+###DESCRIPTION OF CLASSES
 (1) CartDisplay
 
 (2) Clothes
@@ -117,5 +114,6 @@ String toString()
 
 (11) ***Stize*** --> more of a runner class that creates the inventory object and searches through the inventory 
 
----OUR LOGO---
-Link: https://drive.google.com/a/d125.org/file/d/0B5BrW0_eIpfGaFhwdHJaZHRxUDA/view?usp=sharing
+###OUR LOGO
+Link: ![alt text](https://drive.google.com/a/d125.org/file/d/0B5BrW0_eIpfGaFhwdHJaZHRxUDA/view?usp=sharing "Stize")
+
