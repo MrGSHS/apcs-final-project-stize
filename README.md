@@ -115,5 +115,8 @@ String toString()
 (11) ***Stize*** --> more of a runner class that creates the inventory object and searches through the inventory 
 
 ###OUR LOGO
-Link: ![alt text](https://drive.google.com/a/d125.org/file/d/0B5BrW0_eIpfGaFhwdHJaZHRxUDA/view?usp=sharing "Stize")
+Reference-style: 
+![Stize][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
