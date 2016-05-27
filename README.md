@@ -116,7 +116,7 @@ boolean inRange(int low, int high)
 String toString()
     returns parameters of the Skirt object printed out 
 
-(11) ***Stize*** --> more of a runner class that creates the inventory object and searches through the inventory 
+(11) ***Stize*** --> a runner class that creates the inventory object and searches through the inventory 
 
 ###OUR LOGO
 
