@@ -12,6 +12,8 @@ Clothing Retail Store Merchants
 ###DESCRIPTION OF CLASSES
 (1) CartDisplay
 
+A GUI that displays the cart of purchased items.
+
 (2) Clothes
 
 Parameters: int size, int price, String brand, String color, String fileName
@@ -24,6 +26,8 @@ String toString()
     returns parameters of the Clothes object printed out 
 
 (3) ContactEditorUI
+
+A GUI that has the customer enter in their information.
 
 (4) Customer
 
